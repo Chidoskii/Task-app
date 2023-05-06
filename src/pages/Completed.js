@@ -11,7 +11,7 @@ const Completed = () => {
 
   useEffect(() => {
     const fetchTasks = async () => {
-      const response = await fetch("/tasks/completed", {
+      const response = await fetch("https://slvnt-api.onrender.com/tasks/completed", {
         headers: {
           Authorization: `Bearer ${user.token}`,
         },
