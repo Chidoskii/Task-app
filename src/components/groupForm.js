@@ -25,7 +25,7 @@ const GroupForm = () => {
       error,
     };
 
-    const response = await fetch("/groups", {
+    const response = await fetch("https://slvnt-api.onrender.com/groups", {
       method: "POST",
       body: JSON.stringify(group),
       headers: {
