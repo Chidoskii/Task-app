@@ -12,7 +12,7 @@ const Home = () => {
 
   useEffect(() => {
     const fetchTasks = async () => {
-      const response = await fetch("/tasks", {
+      const response = await fetch("https://slvnt-api.onrender.com/tasks", {
         headers: {
           Authorization: `Bearer ${user.token}`,
         },
