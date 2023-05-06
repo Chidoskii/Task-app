@@ -12,7 +12,7 @@ const Groups = () => {
 
   useEffect(() => {
     const fetchGroups = async () => {
-      const response = await fetch("/groups", {
+      const response = await fetch("https://slvnt-api.onrender.com/groups", {
         headers: {
           Authorization: `Bearer ${user.token}`,
         },
