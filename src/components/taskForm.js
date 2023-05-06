@@ -29,7 +29,7 @@ const TaskForm = () => {
       error,
     };
 
-    const response = await fetch("/tasks", {
+    const response = await fetch("https://slvnt-api.onrender.com/tasks", {
       method: "POST",
       body: JSON.stringify(task),
       headers: {
