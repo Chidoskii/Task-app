@@ -19,7 +19,7 @@ const GroupDetails = ({ group }) => {
       },
     });
 
-    const json = await response.json(response.url);
+    const json = await response.json();
 
     if (response.ok) {
       dispatch({ type: "DELETE_GROUP", payload: json });
