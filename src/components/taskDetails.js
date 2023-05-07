@@ -14,7 +14,7 @@ const TaskDetails = ({ task }) => {
     if (!user) {
       return;
     }
-    const response = await fetch("/tasks/" + task._id, {
+    const response = await fetch("https://slvnt.onrender.com/tasks/" + task._id, {
       method: "DELETE",
       headers: {
         Authorization: `Bearer ${user.token}`,
