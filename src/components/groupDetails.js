@@ -12,7 +12,7 @@ const GroupDetails = ({ group }) => {
     if (!user) {
       return;
     }
-    const response = await fetch("https://slvnt.onrender.com/groups/" + group._id, {
+    const response = await fetch("https://slvnt-api.onrender.com/groups/" + group._id, {
       method: "DELETE",
       headers: {
         Authorization: `Bearer ${user.token}`,
