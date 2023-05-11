@@ -10,7 +10,7 @@ export const useLogin = () => {
     setIsLoading(true);
     setError(null);
 
-    const response = await fetch("https://slvnt-api.onrender.com/users/login/", {
+    const response = await fetch("/users/login/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),
