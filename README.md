@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains code for the front end portion of the app. To see the backend code, go to the Task-tired repository.
 
 ## Available Scripts
 
